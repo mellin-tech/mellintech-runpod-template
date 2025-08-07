@@ -19,9 +19,9 @@ wget --content-disposition -P /workspace/ComfyUI/models/checkpoints/ "https://ci
 
 echo "📥 Downloading LoRAs..."
 # epiCRealism (SDXL LoRA)
-wget --content-disposition -P /workspace/ComfyUI/models/loras/ "https://civitai.com/api/download/models/25694?token=3acdfc9715cdb424e1474dea73e648f6"
+wget --content-disposition -P /workspace/ComfyUI/models/checkpoints/ "https://civitai.com/api/download/models/25694?token=3acdfc9715cdb424e1474dea73e648f6"
 
 # epiCRealism XL (SDXL LoRA)
-wget --content-disposition -P /workspace/ComfyUI/models/loras/ "https://civitai.com/api/download/models/277058?token=3acdfc9715cdb424e1474dea73e648f6"
+wget --content-disposition -P /workspace/ComfyUI/models/checkpoints/ "https://civitai.com/api/download/models/277058?token=3acdfc9715cdb424e1474dea73e648f6"
 
 echo "✅ All files downloaded and ready!"
