@@ -97,6 +97,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/kingcashflow/modelcheckpoints/resolve/main/AIIM_Realism_FAST.safetensors"
     "https://huggingface.co/kingcashflow/modelcheckpoints/resolve/main/uberRealisticPornMergePonyxl_ponyxlHybridV1.safetensors"
     "https://huggingface.co/AiWise/epiCRealism-XL-vXI-aBEAST/resolve/5c3950c035ce565d0358b76805de5ef2c74be919/epicrealismXL_vxiAbeast.safetensors"
+	"https://civitai.com/api/download/models/782002?token=3acdfc9715cdb424e1474dea73e648f6"
 )
 UNET_MODELS=(
     
