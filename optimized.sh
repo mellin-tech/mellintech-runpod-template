@@ -110,11 +110,11 @@ CLIP_MODELS=(
 )
 
 LORA_MODELS=(
-	"https://huggingface.co/kingcashflow/LoRas/resolve/main/depth_of_field_slider_v1.safetensors"
-	"https://huggingface.co/kingcashflow/LoRas/resolve/main/zoom_slider_v1.safetensors"
-	"https://huggingface.co/kingcashflow/LoRas/resolve/main/add_detail.safetensors"
+    "https://huggingface.co/kingcashflow/LoRas/resolve/main/depth_of_field_slider_v1.safetensors"
+    "https://huggingface.co/kingcashflow/LoRas/resolve/main/zoom_slider_v1.safetensors"
+    "https://huggingface.co/kingcashflow/LoRas/resolve/main/add_detail.safetensors"
     "https://huggingface.co/kingcashflow/underboobXL/resolve/main/UnderboobXL.safetensors"
-
+    "https://drive.google.com/uc?export=download&id=1EjlmAehaYhNts-jCs9g5Iye1Rbo7Uk45"
 )
 
 CONTROLNET_MODELS=(
