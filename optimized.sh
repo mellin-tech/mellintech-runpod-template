@@ -114,7 +114,6 @@ LORA_MODELS=(
     "https://huggingface.co/kingcashflow/LoRas/resolve/main/zoom_slider_v1.safetensors"
     "https://huggingface.co/kingcashflow/LoRas/resolve/main/add_detail.safetensors"
     "https://huggingface.co/kingcashflow/underboobXL/resolve/main/UnderboobXL.safetensors"
-    "https://drive.google.com/uc?export=download&id=1EjlmAehaYhNts-jCs9g5Iye1Rbo7Uk45"
 )
 
 CONTROLNET_MODELS=(
@@ -485,5 +484,17 @@ if provisioning_has_valid_hf_token; then
 else
     echo "ERROR: Invalid Hugging Face token. Cannot download models."
 fi
+
+# Download additional Google Drive LoRA models using gdown
+pip install --no-cache-dir gdown
+
+echo "Downloading Google Drive LoRA models..."
+
+# Natalia Moretti
+gdown --id 1icf60ccK7r8nEXSF0dGqfFxxoSi0YjpW -O "${WORKSPACE}/ComfyUI/models/loras/NATALIAMORETTI_LORA-000004.safetensors"
+
+# Aubrey Rose
+gdown --id 1EjlmAehaYhNts-jCs9g5Iye1Rbo7Uk45 -O "${WORKSPACE}/ComfyUI/models/loras/AUBREYROSE_LORA-000001.safetensors"
+
 
 provisioning_start
